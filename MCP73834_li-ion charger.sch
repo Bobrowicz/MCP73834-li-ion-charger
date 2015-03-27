@@ -1,0 +1,357 @@
+EESchema Schematic File Version 2
+LIBS:battery management
+LIBS:op-amps
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R R?
+U 1 1 55157895
+P 3850 2800
+F 0 "R?" V 3930 2800 50  0000 C CNN
+F 1 "R" V 3857 2801 50  0000 C CNN
+F 2 "" V 3780 2800 30  0000 C CNN
+F 3 "" H 3850 2800 30  0000 C CNN
+	1    3850 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 551579F0
+P 3600 2800
+F 0 "R?" V 3680 2800 50  0000 C CNN
+F 1 "R" V 3607 2801 50  0000 C CNN
+F 2 "" V 3530 2800 30  0000 C CNN
+F 3 "" H 3600 2800 30  0000 C CNN
+	1    3600 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 55157B0D
+P 4100 2800
+F 0 "R?" V 4180 2800 50  0000 C CNN
+F 1 "R" V 4107 2801 50  0000 C CNN
+F 2 "" V 4030 2800 30  0000 C CNN
+F 3 "" H 4100 2800 30  0000 C CNN
+	1    4100 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 55157C1C
+P 5730 3450
+F 0 "R?" V 5810 3450 50  0000 C CNN
+F 1 "R" V 5737 3451 50  0000 C CNN
+F 2 "" V 5660 3450 30  0000 C CNN
+F 3 "" H 5730 3450 30  0000 C CNN
+	1    5730 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 55157C5D
+P 3130 2785
+F 0 "C?" H 3180 2885 50  0000 L CNN
+F 1 "C" H 3180 2685 50  0000 L CNN
+F 2 "" H 3168 2635 30  0000 C CNN
+F 3 "" H 3130 2785 60  0000 C CNN
+	1    3130 2785
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 55157E4E
+P 7335 3460
+F 0 "C?" H 7385 3560 50  0000 L CNN
+F 1 "C" H 7385 3360 50  0000 L CNN
+F 2 "" H 7373 3310 30  0000 C CNN
+F 3 "" H 7335 3460 60  0000 C CNN
+	1    7335 3460
+	1    0    0    -1  
+$EndComp
+$Comp
+L THERMISTOR TH?
+U 1 1 55157F13
+P 6790 3460
+F 0 "TH?" V 6890 3510 50  0000 C CNN
+F 1 "THERMISTOR" V 6690 3460 50  0000 C BNN
+F 2 "" H 6790 3460 60  0000 C CNN
+F 3 "" H 6790 3460 60  0000 C CNN
+	1    6790 3460
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 55157FA8
+P 3600 2230
+F 0 "D?" H 3600 2330 50  0000 C CNN
+F 1 "LED" H 3600 2130 50  0000 C CNN
+F 2 "" H 3600 2230 60  0000 C CNN
+F 3 "" H 3600 2230 60  0000 C CNN
+	1    3600 2230
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 551581E5
+P 4100 2230
+F 0 "D?" H 4100 2330 50  0000 C CNN
+F 1 "LED" H 4100 2130 50  0000 C CNN
+F 2 "" H 4100 2230 60  0000 C CNN
+F 3 "" H 4100 2230 60  0000 C CNN
+	1    4100 2230
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 551582F4
+P 3850 2230
+F 0 "D?" H 3850 2330 50  0000 C CNN
+F 1 "LED" H 3850 2130 50  0000 C CNN
+F 2 "" H 3850 2230 60  0000 C CNN
+F 3 "" H 3850 2230 60  0000 C CNN
+	1    3850 2230
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 551583FB
+P 7790 2950
+F 0 "P?" H 7790 3100 50  0000 C CNN
+F 1 "CONN_01X02" V 7890 2950 50  0000 C CNN
+F 2 "" H 7790 2950 60  0000 C CNN
+F 3 "" H 7790 2950 60  0000 C CNN
+	1    7790 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 551584CA
+P 2280 1975
+F 0 "P?" H 2280 2125 50  0000 C CNN
+F 1 "CONN_01X02" V 2380 1975 50  0000 C CNN
+F 2 "" H 2280 1975 60  0000 C CNN
+F 3 "" H 2280 1975 60  0000 C CNN
+	1    2280 1975
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5515BA23
+P 5530 3390
+F 0 "#PWR?" H 5530 3140 60  0001 C CNN
+F 1 "GND" H 5530 3240 60  0000 C CNN
+F 2 "" H 5530 3390 60  0000 C CNN
+F 3 "" H 5530 3390 60  0000 C CNN
+	1    5530 3390
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCP73834-FCI/UN U?
+U 1 1 5515CDD0
+P 5030 3100
+F 0 "U?" H 5230 2750 60  0000 C CNN
+F 1 "MCP73834-FCI/UN" H 5030 3450 60  0000 C CNN
+F 2 "" H 5030 3500 60  0000 C CNN
+F 3 "" H 5030 3500 60  0000 C CNN
+	1    5030 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5515DBE1
+P 5475 3990
+F 0 "#PWR?" H 5475 3740 60  0001 C CNN
+F 1 "GND" H 5475 3840 60  0000 C CNN
+F 2 "" H 5475 3990 60  0000 C CNN
+F 3 "" H 5475 3990 60  0000 C CNN
+	1    5475 3990
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5515EA72
+P 5980 3100
+F 0 "R?" V 6060 3100 50  0000 C CNN
+F 1 "R" V 5987 3101 50  0000 C CNN
+F 2 "" V 5910 3100 30  0000 C CNN
+F 3 "" H 5980 3100 30  0000 C CNN
+	1    5980 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5515EDFB
+P 6470 3460
+F 0 "R?" V 6550 3460 50  0000 C CNN
+F 1 "R" V 6477 3461 50  0000 C CNN
+F 2 "" V 6400 3460 30  0000 C CNN
+F 3 "" H 6470 3460 30  0000 C CNN
+	1    6470 3460
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 3100 4100 3050
+Wire Wire Line
+	4100 3100 4530 3100
+Wire Wire Line
+	3850 3200 4530 3200
+Wire Wire Line
+	3850 3050 3850 3200
+Wire Wire Line
+	3600 3050 3600 3300
+Wire Wire Line
+	3600 3300 4530 3300
+Wire Wire Line
+	3600 2430 3600 2555
+Wire Wire Line
+	3850 2430 3850 2550
+Wire Wire Line
+	4100 2430 4100 2550
+Wire Wire Line
+	4100 1925 4100 2030
+Wire Wire Line
+	2480 1925 3130 1925
+Wire Wire Line
+	3130 1925 3600 1925
+Wire Wire Line
+	3600 1925 3850 1925
+Wire Wire Line
+	3850 1925 4100 1925
+Wire Wire Line
+	4100 1925 4475 1925
+Wire Wire Line
+	3850 2030 3850 1925
+Connection ~ 3850 1925
+Wire Wire Line
+	3600 2030 3600 1925
+Connection ~ 3600 1925
+Wire Wire Line
+	3130 2585 3130 1925
+Connection ~ 3130 1925
+Wire Wire Line
+	4475 3000 4530 3000
+Wire Wire Line
+	4475 1925 4475 2900
+Wire Wire Line
+	4475 2900 4475 3000
+Connection ~ 4100 1925
+Wire Wire Line
+	4530 2900 4475 2900
+Connection ~ 4475 2900
+Wire Wire Line
+	5530 3200 5730 3200
+Wire Wire Line
+	5530 3390 5530 3300
+Wire Wire Line
+	5730 3700 5730 3935
+Wire Wire Line
+	5530 2900 5580 2900
+Wire Wire Line
+	5580 2900 7335 2900
+Wire Wire Line
+	7335 2900 7590 2900
+Wire Wire Line
+	7335 2900 7335 3260
+Connection ~ 7335 2900
+Wire Wire Line
+	7590 3000 7590 3935
+Wire Wire Line
+	5580 3000 5530 3000
+Wire Wire Line
+	5580 2900 5580 3000
+Connection ~ 5580 2900
+Wire Wire Line
+	7335 3660 7335 3935
+Wire Wire Line
+	5730 3100 5530 3100
+Wire Wire Line
+	6230 3100 6470 3100
+Wire Wire Line
+	6470 3100 6790 3100
+Wire Wire Line
+	6790 3100 6790 3210
+Wire Wire Line
+	6470 3210 6470 3100
+Connection ~ 6470 3100
+Wire Wire Line
+	6470 3710 6470 3935
+Wire Wire Line
+	7590 3935 7335 3935
+Wire Wire Line
+	7335 3935 6790 3935
+Wire Wire Line
+	6790 3935 6470 3935
+Wire Wire Line
+	6470 3935 5730 3935
+Wire Wire Line
+	5730 3935 5475 3935
+Wire Wire Line
+	5475 3935 3130 3935
+Wire Wire Line
+	3130 3935 2480 3935
+Wire Wire Line
+	2480 3935 2480 2025
+Connection ~ 7335 3935
+Wire Wire Line
+	6790 3710 6790 3935
+Connection ~ 6790 3935
+Connection ~ 6470 3935
+Connection ~ 5730 3935
+Wire Wire Line
+	5475 3990 5475 3935
+Connection ~ 5475 3935
+Wire Wire Line
+	3130 2985 3130 3935
+Connection ~ 3130 3935
+Text Label 4500 3100 2    28   ~ 0
+S1
+Text Label 4500 3200 2    28   ~ 0
+S2
+Text Label 4495 3300 2    28   ~ 0
+Pg
+Text Label 5635 2900 0    28   ~ 0
+Vb
+$EndSCHEMATC
