@@ -1,0 +1,129 @@
+Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 3/27/2015 6:45:19 PM
+
+BeginCmp
+TimeStamp = /55157C5D;
+Reference = C101;
+ValeurCmp = 1 uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55157E4E;
+Reference = C102;
+ValeurCmp = 4.7 uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55168A2E;
+Reference = CON101;
+ValeurCmp = USB-MICRO-B;
+IdModule  = Connect:USB_Micro-B;
+EndCmp
+
+BeginCmp
+TimeStamp = /55157FA8;
+Reference = D101;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551582F4;
+Reference = D102;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551581E5;
+Reference = D103;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551584CA;
+Reference = P101;
+ValeurCmp = CONN_01X02;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /5515BAFA;
+Reference = P102;
+ValeurCmp = CONN_01X06;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = /551583FB;
+Reference = P103;
+ValeurCmp = CONN_01X02;
+IdModule  = battery logger:Terminal_Block_1x2_3.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /551604F7;
+Reference = P104;
+ValeurCmp = CONN_01X02;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /551579F0;
+Reference = R101;
+ValeurCmp = 470R;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55157895;
+Reference = R102;
+ValeurCmp = 470R;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55157B0D;
+Reference = R103;
+ValeurCmp = 470R;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55157C1C;
+Reference = R104;
+ValeurCmp = 1k;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5515EA72;
+Reference = R105;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5515EDFB;
+Reference = R106;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55157F13;
+Reference = TH101;
+ValeurCmp = THERMISTOR;
+IdModule  = battery logger:SolderWirePad_2x_0-8mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = /55166731;
+Reference = U101;
+ValeurCmp = MCP73834-FCI/UN;
+IdModule  = Housings_SSOP:MSOP-10-1EP_3x3mm_Pitch0.5mm;
+EndCmp
+
+EndListe
