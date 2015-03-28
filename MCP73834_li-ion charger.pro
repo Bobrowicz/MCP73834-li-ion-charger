@@ -1,4 +1,4 @@
-update=3/27/2015 5:14:24 PM
+update=3/28/2015 12:05:35 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -62,3 +60,5 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=C:/Users/Peter.HOME/Dropbox/Projects/battery-logger/battery logger
+[general]
+version=1
