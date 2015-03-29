@@ -462,4 +462,6 @@ Text Label 6340 3005 0    28   ~ 0
 Vb
 Text Label 3190 1930 0    28   ~ 0
 Vs
+Text Label 6340 3105 0    28   ~ 0
+Th
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 3/27/2015 10:03:47 PM
+Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 3/28/2015 2:39:10 PM
 
 BeginCmp
 TimeStamp = /55157C5D;
@@ -15,7 +15,7 @@ IdModule  = Capacitors_SMD:C_0805_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /55168A2E;
+TimeStamp = /5516CB8B;
 Reference = CON101;
 ValeurCmp = USB-MICRO-B;
 IdModule  = USB connectors:USB_Micro-B_FCI_10118193-0001LF;
@@ -113,10 +113,10 @@ IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
-TimeStamp = /55166731;
+TimeStamp = /5516C62E;
 Reference = U101;
 ValeurCmp = MCP73834-FCI/UN;
-IdModule  = Housings_SSOP:MSOP-10-1EP_3x3mm_Pitch0.5mm;
+IdModule  = Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm;
 EndCmp
 
 EndListe
