@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 3/28/2015 2:39:10 PM
+Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 4/3/2015 3:59:10 PM
 
 BeginCmp
 TimeStamp = /55157C5D;
@@ -43,6 +43,13 @@ IdModule  = LEDs:LED-0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /551DA56F;
+Reference = P101;
+ValeurCmp = CONN_01X02;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
 TimeStamp = /5515BAFA;
 Reference = P102;
 ValeurCmp = CONN_01X06;
@@ -54,13 +61,6 @@ TimeStamp = /551583FB;
 Reference = P103;
 ValeurCmp = CONN_01X02;
 IdModule  = battery logger:Terminal_Block_1x2_3.5mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /551604F7;
-Reference = P104;
-ValeurCmp = CONN_01X02;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
@@ -113,7 +113,7 @@ IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
-TimeStamp = /5516C62E;
+TimeStamp = /551DA7A4;
 Reference = U101;
 ValeurCmp = MCP73834-FCI/UN;
 IdModule  = Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm;
